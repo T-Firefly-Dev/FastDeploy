@@ -1,5 +1,7 @@
 # AI Deployment on RK3588 with PaddlePaddle FastDeploy
 
+**English** | [**简体中文**](locales/README.zh-CN.md)
+
 ## Introduction
 
 **FastDeploy** is an Easy-to-use and High Performance AI model deployment toolkit for Cloud, Mobile and Edge with out-of-the-box and unified experience. It provides end-to-end optimization for over 150+ Text, Vision, Speech and Cross-modal AI models.
