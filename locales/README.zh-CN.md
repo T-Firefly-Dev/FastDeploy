@@ -69,9 +69,10 @@ pip3 install fastdeploy_python-*-linux_aarch64.whl
 ```bash
 cd demos/vision/detection/paddledetection/rknpu2/python
 
-python3 infer.py --model_file ./picodet_s_416_coco_lcnet/picodet_s_416_coco_lcnet_rk3588.rknn \
-                 --config_file ./picodet_s_416_coco_lcnet/infer_cfg.yml \
-                 --image 000000014439.jpg
+python3 infer.py \
+  --model_file ./picodet_s_416_coco_lcnet/picodet_s_416_coco_lcnet_rk3588.rknn \
+  --config_file ./picodet_s_416_coco_lcnet/infer_cfg.yml \
+  --image 000000014439.jpg
 ```
 
 - **Scrfd 人脸检测模型**
@@ -79,8 +80,9 @@ python3 infer.py --model_file ./picodet_s_416_coco_lcnet/picodet_s_416_coco_lcne
 ```bash
 cd demos/vision/facedet/scrfd/rknpu2/python
 
-python3 infer.py --model_file ./scrfd_500m_bnkps_shape640x640_rk3588.rknn \
-                 --image test_lite_face_detector_3.jpg
+python3 infer.py \
+  --model_file ./scrfd_500m_bnkps_shape640x640_rk3588.rknn \
+  --image test_lite_face_detector_3.jpg
 ```
 
 - **PaddleSeg 人像分割模型**
@@ -88,9 +90,10 @@ python3 infer.py --model_file ./scrfd_500m_bnkps_shape640x640_rk3588.rknn \
 ```bash
 cd demos/vision/segmentation/paddleseg/rknpu2/python
 
-python3 infer.py --model_file ./Portrait_PP_HumanSegV2_Lite_256x144_infer/Portrait_PP_HumanSegV2_Lite_256x144_infer_rk3588.rknn \
-                 --config_file ./Portrait_PP_HumanSegV2_Lite_256x144_infer/deploy.yaml \
-                 --image images/portrait_heng.jpg
+python3 infer.py \
+  --model_file ./Portrait_PP_HumanSegV2_Lite_256x144_infer/Portrait_PP_HumanSegV2_Lite_256x144_infer_rk3588.rknn \
+  --config_file ./Portrait_PP_HumanSegV2_Lite_256x144_infer/deploy.yaml \
+  --image images/portrait_heng.jpg
 ```
 
 ## PC 端
@@ -154,12 +157,12 @@ pip3 install paddlepaddle
 
 **PicoDet_S 物体检测模型：**
 
-![PicoDet_S 物体检测模型](./res/1.webp)
+![PicoDet_S 物体检测模型](../res/1.webp)
 
 **SCRFD 人脸检测模型：**
 
-![SCRFD 人脸检测模型](./res/2.webp)
+![SCRFD 人脸检测模型](../res/2.webp)
 
 **Portait-PP-HumanSegV2_Lite 肖像分割模型：**
 
-![Portait-PP-HumanSegV2_Lite 肖像分割模型](./res/3.webp)
+![Portait-PP-HumanSegV2_Lite 肖像分割模型](../res/3.webp)
